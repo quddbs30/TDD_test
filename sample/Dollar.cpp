@@ -10,8 +10,3 @@ Dollar *Dollar::times(int multiplier)
 {
     return new Dollar(amount * multiplier);
 }
-
-bool Dollar::equals(Dollar *obj)
-{
-    return (this->amount == obj->amount);
-}
