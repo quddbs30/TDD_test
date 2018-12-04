@@ -5,6 +5,7 @@ namespace {
 TEST(utDollar, testMultiplcation) {
     Dollar *five = new Dollar(5);
     ASSERT_TRUE(*(new Dollar(10)) == *five->times(2));
+    ASSERT_TRUE(*(new Dollar(15)) == *five->times(3));
 }
 TEST(utDollar, testEquality_p) {
     ASSERT_TRUE(*(new Dollar(5)) == *(new Dollar(5)));
